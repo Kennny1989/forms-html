@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf8" />
+        <meta name="viewpoint" content="width=device-width"/>
+        <title>Html-forms-Assessment</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        rel="stylesheet"
+        type="text/css"
+        />
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <main>
+           <form>
+            <div>
+                <p>
+                <label for="name">Name:</label><br>
+                <input id="name"
+                type="text"
+                name="name"
+                minlength="4"
+                maxlength="20"
+                size="100"
+                />
+                </p>
+            </div>
+            <div>
+                <p>
+                <label for="email">Email:</label><br>
+                <input id="emailAddress"
+                type="email"
+                size="100"
+                minlength="3"
+                maxlength="65"
+                required
+                />
+                </p>
+            </div>
+            <div>
+                <p>
+                <label for="form-message">Your Message</label><br>
+                <textarea
+                id="form message"
+                name="message"
+                autofocus="on"
+                required
+                maxlength="800"
+                cols="100"
+                rows="20"
+                wrap="hard"
+                autocomplete="on"
+                autocorrect="on"
+                placeholder="Write Message"
+                ></textarea>
+                </p>
+            </div>
+            <p>
+            <button type="submit">Submit</button>
+            </p>
+           </form> 
+        </main>
+    </body>
+</html>
